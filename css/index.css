@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.9);
+  color: rgb(45, 43, 43);
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+b {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+h2,
+p {
+  color: white;
+}
+
+/* Navbar Section */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: auto;
+  padding: 0px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.left {
+  font-size: 50px;
+  flex: 30%;
+  color: white;
+  text-align: center;
+}
+
+.right {
+  flex: 70%;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  text-align: justify;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.04rem;
+}
+
+/* About Section */
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+
+.firstSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 30px 0; */
+  background: url("../img/lee-campbell-DtDlVpy-vvQ-unsplash.jpg");
+  /* background:rgba(71, 91, 151, 0.5) ; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.firstSection > div {
+  width: 35%;
+}
+
+.leftSection p{
+  font-size: 2.8rem;
+  color: rgb(5 5 48);
+}
+
+.leftSection{
+  font-size: 2.8rem;
+  color: rgb(5 5 48);
+}
+
+.rightSection img {
+  width: 80%;
+}
+
+.purple {
+  color: rgb(236 37 10);
+}
+
+.text-grey {
+  color: grey;
+}
+
+#element {
+  color: #9c33b5e6;
+  text-align: center;
+}
+
+/* Second Section */
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 700px;
+  justify-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.aboutSection {
+  display: flex;
+  flex: 90%;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin: auto;
+  border: 2px solid blueviolet;
+  /* justify-content: center; */
+  box-shadow: 10px 10px 80px 10px pink inset;
+}
+
+.aboutLeft,
+.aboutRight {
+  flex: 50%;
+}
+
+.one {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Left,
+.Right {
+  flex: 40%;
+  padding: 5px;
+  text-align: center;
+}
+
+.Left img {
+  border-radius: 10px;
+}
+
+.Right p {
+  text-align: justify;
+  margin: 10px;
+}
+
+.two p {
+  text-align: justify;
+  margin: 10px;
+}
+
+.aboutRight p {
+  text-align: justify;
+  margin: 10px;
+}
+
+.aboutRight h2 {
+  color: #7474ab;
+  margin: 10px;
+}
+
+.aboutRight hr {
+  margin: 0;
+  width: 40%;
+  border: 1px solid #7474ab;
+}
+
+.two {
+  width: 79%;
+  margin: auto;
+}
+
+.two h2 {
+  color: rgb(94, 69, 69);
+  margin: 10px;
+}
+
+.aboutLeft .buttons {
+  padding: 50px 0;
+  width: 80%;
+  margin: auto;
+}
+
+.aboutLeft .btn {
+  font-size: 20px;
+  padding: 12px;
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Service Section */
+.thirdSection {
+  width: 100%;
+  height: auto;
+}
+
+.thirdSection h2 {
+  text-align: center;
+  font-size: 35px;
+  margin: 5px;
+}
+
+.thirdSection p {
+  text-align: center;
+  margin: 5px;
+}
+
+.thirdSection hr {
+  width: 20%;
+  margin: auto;
+}
+
+.service {
+  width: 80%;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.s-left,
+.s-middle,
+.s-right {
+  flex: 28%;
+  background:rgba(171, 160, 160, 0.9);
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.thirdSection .service,
+.s-left,
+.s-middle,
+.s-right img,
+p {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+.thirdSection .service h2{
+  color: black;
+}
+
+/* Portfolio Section */
+.fourthSection h2,
+p {
+  text-align: center;
+  margin: 10px;
+}
+
+.card {
+  width: 80%;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.card-items {
+  flex: 28%;
+  margin: 15px;
+  background-color: #fff;
+  box-shadow: 0px 10px 10px 5px grey;
+  border-radius: 20px;
+}
+
+.card-img img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.card-content {
+  font-size: 10px;
+}
+
+.card-content h2 {
+  color: black;
+  text-align: justify;
+  font-size: 30px;
+}
+
+.card-content p {
+  color: black;
+  text-align: left;
+}
+
+/* Fifth Section */
+
+.fifthSection{
+    text-align: center;
+}
+
+.fifthSection h2{
+    margin: 20px;
+}
+
+.fifthSection h1{
+    color: #7474ab;
+}
+
+/* Contact Section */
+.sixth-section{
+  height: auto;
+  display: flex;
+  margin: auto;
+  padding: 30px;
+  justify-content: center;
+  background-color: #15153c;
+  color: black;
+}
+
+.contact-section{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+}
+
+.contact-section .contact-connect, .contact-info{
+  flex: 50%;
+}
+
+.contact-connect h2{ 
+  color: black;
+}
+
+.contact-connect hr{
+  width: 100px;
+  margin: 10px;
+  border: 1px solid  #15153c;
+}
+
+form{
+  width: 100%;
+  display: block;
+}
+
+form input{
+  width: 80%;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+}
+
+form textarea{
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+
+#submit{
+  width: 50%;
+  text-align: center;
+  background-color: #15153c;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.contact-info h2{
+  color: black;
+}
+
+.contact-info hr{
+  width: 100px;
+  margin: 5px;
+}
+
+.contact-info p{
+  width: 80%;
+  text-align: justify;
+  color: grey;
+}
+
+.contact-info p span{
+  margin: 5px;
+  text-align: justify;
+}
+
+.seven-section{
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  background: black;
+}
+
+.seven-section p{
+  color: white;
+}

@@ -6,9 +6,9 @@
 
 body {
   background: rgba(0, 0, 0, 0.9);
-  color: rgb(45, 43, 43);
-  font-family: "Poppins", sans-serif;
-  width: 100%;
+    color: #2D2B2B;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
 }
 
 b {
@@ -27,19 +27,19 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   height: auto;
-  padding: 0px;
+  padding: 10px;
   background: rgba(0, 0, 0, 0.1);
 }
 
 .left {
-  font-size: 50px;
-  flex: 30%;
-  color: white;
-  text-align: center;
+  font-size: 30px;
+    flex: 40%;
+    color: white;
+    text-align: center;
 }
 
 .right {
-  flex: 70%;
+  flex: 60%;
 }
 
 nav ul {
@@ -72,13 +72,13 @@ main hr {
   margin: 60px 84px;
 }
 
-.firstSection {
+.first-section{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   /* margin: 30px 0; */
-  background: url("../img/lee-campbell-DtDlVpy-vvQ-unsplash.jpg");
+  background: url("../img/joshua-aragon-FGXqbqbGt5o-unsplash.jpg");
   /* background:rgba(71, 91, 151, 0.5) ; */
   background-position: center;
   background-repeat: no-repeat;
@@ -86,13 +86,13 @@ main hr {
   height: 600px;
 }
 
-.firstSection > div {
+.first-section > div {
   width: 35%;
 }
 
 .leftSection p{
   font-size: 2.8rem;
-  color: rgb(5 5 48);
+  color: rgb(222, 222, 242);
 }
 
 .leftSection{
@@ -118,7 +118,7 @@ main hr {
 }
 
 /* Second Section */
-.secondSection {
+.second-section {
   max-width: 80vw;
   margin: auto;
   height: 700px;
@@ -126,7 +126,7 @@ main hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  padding: 20px;
 }
 
 .aboutSection {
@@ -135,9 +135,9 @@ main hr {
   padding: 10px;
   flex-wrap: wrap;
   margin: auto;
-  border: 2px solid blueviolet;
+  border: 2px solid rgb(253, 252, 254);
   /* justify-content: center; */
-  box-shadow: 10px 10px 80px 10px pink inset;
+  box-shadow: 10px 10px 80px 10px rgb(255, 255, 255) inset;
 }
 
 .aboutLeft,
@@ -177,14 +177,14 @@ main hr {
 }
 
 .aboutRight h2 {
-  color: #7474ab;
+  color: #333358;
   margin: 10px;
 }
 
 .aboutRight hr {
   margin: 0;
   width: 40%;
-  border: 1px solid #7474ab;
+  border: 1px solid #24243e;
 }
 
 .two {
@@ -193,7 +193,7 @@ main hr {
 }
 
 .two h2 {
-  color: rgb(94, 69, 69);
+  color: rgb(184, 132, 132);
   margin: 10px;
 }
 
@@ -214,23 +214,24 @@ main hr {
 }
 
 /* Service Section */
-.thirdSection {
+.third-section {
   width: 100%;
   height: auto;
 }
 
-.thirdSection h2 {
+.third-section h2 {
   text-align: center;
   font-size: 35px;
   margin: 5px;
 }
 
-.thirdSection p {
+.third-section p {
   text-align: center;
   margin: 5px;
+  color: white;
 }
 
-.thirdSection hr {
+.third-section hr {
   width: 20%;
   margin: auto;
 }
@@ -247,31 +248,32 @@ main hr {
 .s-middle,
 .s-right {
   flex: 28%;
-  background:rgba(171, 160, 160, 0.9);
+  background:rgba(248, 247, 247, 0.9);
   margin: 15px;
   padding: 10px;
   border-radius: 20px;
 }
 
-.thirdSection .service,
+.service,
 .s-left,
 .s-middle,
 .s-right img,
 p {
   text-align: center;
   font-size: 15px;
-  color: white;
+  color: rgb(2, 0, 0);
 }
 
-.thirdSection .service h2{
-  color: black;
+.third-section .service h2{
+  color:  #111133;
 }
 
 /* Portfolio Section */
-.fourthSection h2,
+.fourth-section h2,
 p {
   text-align: center;
   margin: 10px;
+  color: white;
 }
 
 .card {
@@ -316,15 +318,16 @@ p {
 
 /* Fifth Section */
 
-.fifthSection{
+.fifth-section{
     text-align: center;
+    padding: 20px;
 }
 
-.fifthSection h2{
+.fifth-section h2{
     margin: 20px;
 }
 
-.fifthSection h1{
+.fifth-section h1{
     color: #7474ab;
 }
 
@@ -411,13 +414,13 @@ form textarea{
   text-align: justify;
 }
 
-.seven-section{
+.seventh-section{
   height: auto;
   width: 100%;
   padding: 10px;
   background: black;
 }
 
-.seven-section p{
+.seventh-section p{
   color: white;
 }

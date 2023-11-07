@@ -1,62 +1,56 @@
-@media (max-width:800px) {
-    body{
-        flex: 100%;
-    }
-}
+@media (max-width: 800px) {
+  body {
+    flex: 100%;
+  }
 
-@media (max-width:800px) {
-    .left, .right{
-        flex: 100%;
-        justify-content: center;
-    }
-}
+  .left,
+  .right {
+    flex: 100%;
+    justify-content: center;
+  }
 
-@media (max-width:800px) {
-    nav, ul{
-        flex: 100%;
-        justify-content: center;
-    }
-}
+  nav,
+  ul {
+    flex: 100%;
+    justify-content: center;
+  }
 
-@media (max-width:800px) {
-    .leftSection{
-        flex: 70%;
-        text-align: center;
-    }
-}
+  .leftSection {
+    flex: 80%;
+    text-align: center;
+  }
 
-@media (max-width:800px) {
-    .secondSection{
-        padding: 20px;
-    }
-}
+  .second-section {
+    padding: 20px;
+  }
 
-@media (max-width:800px) {
-    .thirdSection{
-        margin-top: 100%;
-    }
-}
+  .aboutSection{
+    flex:100%;
+  }
 
-@media (max-width:800px) {
-    .service, .s-left, .s-middle, .s-right{
-        flex: 80%;
-        align-items: center;
-        justify-content: center;
-    }
-}
+  .two{
+    width:100%;
+  }
 
-@media (max-width:800px) {
-    .card, .card-items{
-        flex: 80%;
-        align-items: center;
-        justify-content: center;
-    }
-}
+  .third-section {
+    margin-top: 400%;
+  }
 
-@media (max-width:800px) {
-    .contact-section, .contact-connect, .contact-info{
-        flex: 75%;
-        align-items: center;
-        justify-content: center;
-    }
+  .service,
+  .s-left,
+  .s-middle,
+  .s-right,
+  .card,
+  .card-items,
+  .contact-section,
+  .contact-connect,
+  .contact-info{
+    flex: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #submit{
+    width: 80%;
+  }
 }

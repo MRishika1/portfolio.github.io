@@ -40,14 +40,16 @@
   .s-left,
   .s-middle,
   .s-right,
-  .card,
-  .card-items,
   .contact-section,
   .contact-connect,
   .contact-info{
     flex: 100%;
     align-items: center;
     justify-content: center;
+  }
+  .card,
+  .card-items{
+    flex:100%
   }
 
   #submit{
